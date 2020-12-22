@@ -1,0 +1,11 @@
+/* CSS Code für verbessertes Blog-Modul */
+
+.et_pb_module.et_pb_posts article.et_pb_post a.entry-featured-image-url { padding-top: 70%; }
+.et_pb_module.et_pb_posts article.et_pb_post a.entry-featured-image-url > img {
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
